@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Company Page</title>
+        <link
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            rel="stylesheet">
+        <style>
+        .section {
+            padding: 60px 0;
+        }
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 1rem;
+        }
+        .values-card {
+            margin-bottom: 2px;
+        }
+        .contact-info {
+            background-color: #ff6600;
+            color: white;
+            padding: 20px 0;
+        }
+        .facts-figures {
+            color: #f8f9fa;
+            text-align: center;
+        }
+        .facts-figures h3 {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+        .history-item {
+            margin-bottom: 20px;
+        }
+       
+        
+        .facts-section {
+            background-image: url('./images/Road.png'); /* Replace with the actual path to the background image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 50px 0;
+        }
+        .fact-box {
+              padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .fact-box h2 {
+            margin: 0;
+            font-size: 20px;
+        }
+        .fact-box p {
+            margin: 5px 0 0;
+        }
+
+        .orange-line {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: orange;
+}
+      
+    </style>
+    </head>
+    <body>
+        <!-- Vision Section -->
+        <section class="section" id="vision">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h2>Our Vision</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Suspendisse vitae ipsum pretium, sagittis
+                            felis quis, placerat felis. Sed et pulvinar diam, at
+                            porttitor enim. Morbi risus est, interdum augue id,
+                            vestibulum placerat enim. Maecenas luctus velit
+                            magna, sed fermentum lorem venenatis sit amet.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./images/trucks.png" alt="Vision Image"
+                            class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company Core Values Section -->
+        <section class="section bg-light" id="core-values">
+            <div class="container text-center">
+                <h2>Company Core Values</h2>
+                <div class="row">
+                    <div class="col-md-4 values-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <img class="float-left" src="./images/time.png"
+                                    alt>
+                                <h5 class="card-title">On Time</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 values-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <img class="float-left"
+                                    src="./images/shiping.png" alt>
+                                <h5 class="card-title">Shipping</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 values-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <img class="float-left"
+                                    src="./images/protection.png" alt>
+                                <h5 class="card-title">Protection</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 values-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <img class="float-left" src="./images/house.png"
+                                    alt>
+                                <h5 class="card-title">Wear House</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 values-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <img class="float-left"
+                                    src="./images/delivery.png" alt>
+                                <h5 class="card-title">Delivery</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 values-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <img class="float-left"
+                                    src="./images/weather.png" alt>
+                                <h5 class="card-title">Weather Instance</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section class="contact-info">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="float-left" src="./images/call.png" alt>
+                        <h5>Call Center</h5>
+                        <p>Give us a free call</p>
+                        <p>+92-305-1234567</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="float-left" src="./images/hours.png" alt>
+                        <h5>Working Hours</h5>
+                        <p>Mon - Sat 9:00AM - 6:00PM</p>
+                        <p>Fri 8:00AM - 12:30PM</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="float-left" src="./images/location.png" alt>
+                        <h5>Our Location</h5>
+                        <p>P-308 East Millat Chock</p>
+                        <p>London</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="float-left" src="./images/calc.png" alt>
+                        <h5>Get Quick Quote</h5>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Base Facts & Figures Section -->
+        <section class="facts-section">
+
+            <div class="container">
+                <div class="col-12 text-center">
+                    <h2 class="mb-5">Number & Dates<br>BASE FACTS & FIGURES</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="./images/truck_green 1.png" alt="Truck"
+                            class="img-fluid">
+                    </div>
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="fact-box">
+                                    <h2>1979</h2>
+                                    <p>Founded</p>
+                                    <p>Pellentesque at cursus libero</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="fact-box">
+                                    <h2>97,413</h2>
+                                    <p>Km Per Year</p>
+                                    <p>Pellentesque at cursus libero</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="fact-box">
+                                    <h2>3280</h2>
+                                    <p>Ton of Goods</p>
+                                    <p>Pellentesque at cursus libero</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="fact-box">
+                                    <h2>1313</h2>
+                                    <p>Tyres Replaced</p>
+                                    <p>Pellentesque at cursus libero</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Meet Our Team Section -->
+        <section class="section bg-light" id="meet-team">
+            <div class="container">
+                <h2 class="text-center">Meet Our Team</h2>
+                <div class="row">
+                    <div class="col-md-3 team-member ">
+                        <img src="./images/Rectangle 372.png" alt="Team Member"
+                            width="100%">
+                        <h5 style="text-align: center;">Lorem Ipsum</h5>
+                        <p style="text-align: center;">Staff Manager</p>
+                    </div>
+                    <div class="col-md-3 team-member">
+                        <img src="./images/Rectangle 373.png" alt="Team Member"
+                            width="100%">
+                        <h5 style="text-align: center;">Lorem Ipsum</h5>
+                        <p style="text-align: center;">Staff Manager</p>
+                    </div>
+                    <div class="col-md-3 team-member">
+                        <img src="./images/Rectangle 374.png" alt="Team Member"
+                            width="100%">
+                        <h5 style="text-align: center;">Lorem Ipsum</h5>
+                        <p style="text-align: center;">Staff Manager</p>
+                    </div>
+                    <div class="col-md-3 team-member">
+                        <img src="./images/Rectangle 375.png" alt="Team Member"
+                            width="100%">
+                        <h5 style="text-align: center;">Lorem Ipsum</h5>
+                        <p style="text-align: center;">Staff Manager</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our History Section -->
+        <section class="section" id="our-history">
+            <div class="container">
+               
+                <h2 class="text-center">Our History</h2>
+               
+                <div class="row history-item">
+                    <div class="col-md-6">
+                        <img src="./images/Rectangle 379.png"
+                            alt="History Image" class="img-fluid">
+                    </div>
+                  
+
+                 
+
+
+                <div class="row history-item">
+                    <div class="col-md-6">
+                        <h5>10 Aug</h5>
+                        <h3>Inauguration of Container Depot</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./images/Rectangle 380.png"
+                            alt="History Image" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row history-item">
+                    <div class="col-md-6">
+                        <img src="./images/Rectangle 381.png"
+                            alt="History Image" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h5>13 Sep</h5>
+                        <h3>International Ship & Plane Transportation</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.</p>
+                    </div>
+
+                    <div class="row history-item">
+                        <div class="col-md-6">
+                            <h5>10 Aug</h5>
+                            <h3>Inauguration of Container Depot</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/Rectangle 382.png"
+                                alt="History Image" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="row history-item">
+                        <div class="col-md-6">
+                            <img src="./images/Rectangle 383.png"
+                                alt="History Image" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <h5>13 Sep</h5>
+                            <h3>International Ship & Plane Transportation</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Sed do eiusmod tempor incididunt ut labore et
+                                dolore magna aliqua.</p>
+                        </div>
+
+                       
+                   
+                        </div>
+
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
+
+
